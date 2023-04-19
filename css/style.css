@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    background: #E5E5E5;
+}
+
+
+
+header {
+    padding-top: 40px;
+    padding-left: 70px;
+}
+
+.conteudo {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.parte_texto textarea {
+    background: transparent;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    font-size: 32px;
+    padding: 32px;
+    width: 100%;
+    color: #0A3871;
+}
+
+.message img {
+    width: 13px;
+}
+
+.message h4 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.message {
+    display: flex;
+    margin-left: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    color: #fff;
+    border: 1px solid #0A3871;
+}
+
+.btn .btn1 button,
+.btn .btn2 button {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #0A3871;
+    border-radius: 24px;
+    margin: 10px;
+}
+
+.parte2 {
+    margin-top: -70px;
+    background: #fff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.parte2 .btn_2{
+    display: flex;
+    justify-content: center;
+}
+
+.parte2 .btn_2 button {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #0A3871;
+    border-radius: 24px;
+    margin: 10px;
+
+}
+
+
+.parte_texto2 textarea {
+    background: transparent;
+    font-size: 26px;
+}

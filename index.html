@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./img/logo-alura.svg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <div class="conteudo">
+
+        <div>
+
+            <div class="parte_texto">
+                <textarea id="palavra" name="palavra" cols="25" rows="8" style="resize: none"></textarea>
+            </div>
+
+            <div class="message">
+                <img src="./img/exclamacao.svg" alt="">
+                <h4>Apenas letras minúsculas e sem acento.</h4>
+            </div>
+            <div class="btn">
+                <div class="btn1">
+                    <button type="button" onclick="criptografar()">Criptografar</button>
+                </div>
+
+                <div class="btn2">
+                    <button type="button" onclick="descriptografar()">Descriptografar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="parte2">
+            <div class="parte_texto2">
+                <textarea id="palavraCriptografada" name="palavraCriptografada"  cols="20" rows="13" style="resize: none" ></textarea>
+            </div>
+
+            <div class="btn_2">
+                <button type="button" onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
